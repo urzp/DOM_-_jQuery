@@ -1,0 +1,30 @@
+nav {
+  width: 100%;
+  margin: 0; }
+
+nav ul {
+  width: 900px;
+  margin: 0 auto;
+  list-style: none; }
+  nav ul li {
+    overflow: auto;
+    display: inline-block;
+    height: 130px; }
+  nav ul a {
+    display: block;
+    padding: 6px 12px;
+    text-decoration: none;
+    text-transform: uppercase;
+    margin-top: 65px; }
+  nav ul #logo {
+    margin-right: 100px;
+    width: 300px;
+    top: 30px; }
+
+.header h1 {
+  text-align: center; }
+
+body {
+  margin: 0; }
+
+/*# sourceMappingURL=style.css.map */

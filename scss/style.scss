@@ -1,0 +1,40 @@
+$logo_hight: 130px;
+
+nav {
+    width: 100%;
+    margin: 0 ;
+}
+
+nav ul {
+    width: 900px;
+    margin: 0 auto;
+    list-style: none;
+
+    li { 
+        overflow: auto; 
+        display: inline-block;
+        height: $logo_hight;
+    }
+    
+  a {
+        display: block;
+        padding: 6px 12px;
+        text-decoration: none;
+        text-transform: uppercase;
+        margin-top: $logo_hight/2;
+    }
+    
+    #logo{
+        margin-right: 100px;    
+        width: 300px;
+        top: 30px; 
+    }
+}
+
+.header h1{
+    text-align: center;
+}
+
+body{
+    margin: 0;
+}
