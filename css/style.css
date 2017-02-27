@@ -25,15 +25,23 @@ nav ul {
 body {
   margin: 0; }
 
-.mane h1 {
-  text-align: center; }
-.mane img {
-  width: 100%; }
-.mane p {
-  width: 80%;
-  margin: 40px auto;
-  font-family: sans-serif;
-  color: #999; }
+.mane {
+  height: 100%; }
+  .mane h1 {
+    text-align: center; }
+  .mane img.home {
+    width: 100%; }
+  .mane .menu div {
+    margin: 10px auto;
+    width: 80%; }
+  .mane .menu img {
+    width: 100%;
+    margin: 10px auto; }
+  .mane p {
+    width: 80%;
+    margin: 40px auto;
+    font-family: sans-serif;
+    color: #999; }
 
 .footer {
   width: 100%;

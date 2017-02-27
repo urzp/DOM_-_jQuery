@@ -40,15 +40,27 @@ body{
 }
 
 .mane {
+    
+    height: 100%;
 
     h1{
         text-align: center;
     }
     
-    img {
+    img.home {width: 100%;}
         
-        width: 100%;}
+  
     
+    
+.menu div {
+    margin: 10px auto;
+    width: 80%;
+}
+
+.menu img {
+    width: 100%;
+    margin: 10px auto;
+ }
     
     p {
         width: 80%;

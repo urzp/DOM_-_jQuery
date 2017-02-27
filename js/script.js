@@ -25,7 +25,7 @@
     function index_page(){
         clear_main();
         $(".mane").append("<h1>Welcome to us<h1>");
-        $(".mane").append(' <img src="img/main.jpg" alt="restoran" > ');  
+        $(".mane").append(' <img class="home" src="img/main.jpg" alt="restoran" > ');  
     };
     
      function about_us_page(){
@@ -36,6 +36,11 @@
 
      function our_meny_page(){
         clear_main();
+        $(".mane").append('<h1>Our Menu</h1>');
+        $(".mane").append('<div class="menu">'); 
+        $(".menu").append('<div ><img src="img/menu1.jpg" alt="memu1"></div>'); 
+        $(".menu").append('<div ><img src="img/menu2.jpg" alt="memu2"></div>'); 
+        $(".menu").append('<div ><img src="img/menu3.jpg" alt="memu3"></div>'); 
     };
 
      function news_page_page(){
@@ -59,7 +64,6 @@ $(function(){
     $('nav > ul > li:nth-child(5)').click( function(){news_page_page()});
 
 });
-
 
 
 
