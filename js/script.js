@@ -1,5 +1,6 @@
 
-
+    const about_p = '<p>The year was 1997. The place, a little town in southern Utah called St. George. A lovely couple named Steve and Patricia Stanley started a restaurant called Cafe Rio Mexican Grill. Cafe Rio served authentic dishes derived from inspired recipes and traditional cooking of Northern Mexico’s Rio Grande region, Southern Texas, and New Mexico. Central to every bite was the belief that every ingredient must be fresh and made fresh to order. And you know what? People loved it. They couldn’t get enough of it. So much so, that one restaurant became six. In 2004, these six little restaurants caught the attention of a fine gentleman named Bob Nilsen. He purchased Cafe Rio from the Stanleys with the idea of spreading the love of making this fresh Mexican food to everyone in and around Utah and beyond. He made sure to keep the mantra of “fresh food, made fresh” at the very core of the brand. No freezers. No microwaves. Nothing premade. Our staff begins each day, bright and early, hand-squeezing limes, hand-scooping avocados, simmering sauces and preparing desserts. The crowds that line up at our eighty-five Cafe Rio locations today aren’t the only ones to take notice. We’ve won over 100 awards, from the Best of City Search and the Oxnard Salsa Festival to the Inc. 500 and the Alfred P. Sloan Award. And you know what else? We’re just getting started.</p>'
+    
     function clear_alle(){
         $('#container').children().remove()
     };
@@ -29,6 +30,8 @@
     
      function about_us_page(){
         clear_main();
+        $(".mane").append('<h1>About US</h1>');
+        $(".mane").append(about_p); 
     };
 
      function our_meny_page(){

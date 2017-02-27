@@ -22,14 +22,18 @@ nav ul {
     width: 300px;
     top: 30px; }
 
-.mane h1 {
-  text-align: center; }
-
 body {
   margin: 0; }
 
-.mane > img {
+.mane h1 {
+  text-align: center; }
+.mane img {
   width: 100%; }
+.mane p {
+  width: 80%;
+  margin: 40px auto;
+  font-family: sans-serif;
+  color: #999; }
 
 .footer {
   width: 100%;

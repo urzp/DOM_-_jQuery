@@ -33,16 +33,29 @@ nav ul {
     }
 }
 
-.mane h1{
-    text-align: center;
-}
+
 
 body{
     margin: 0;
 }
 
-.mane > img {
-    width: 100%;
+.mane {
+
+    h1{
+        text-align: center;
+    }
+    
+    img {
+        
+        width: 100%;}
+    
+    
+    p {
+        width: 80%;
+        margin: 40px auto;
+        font-family: sans-serif;
+        color: #999;
+    }
 }
 
 .footer{
