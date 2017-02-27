@@ -16,6 +16,7 @@ nav ul {
         height: $logo_hight;
     }
     
+    
   a {
         display: block;
         padding: 6px 12px;
@@ -25,13 +26,14 @@ nav ul {
     }
     
     #logo{
+        cursor: pointer;
         margin-right: 100px;    
         width: 300px;
         top: 30px; 
     }
 }
 
-.header h1{
+.mane h1{
     text-align: center;
 }
 
