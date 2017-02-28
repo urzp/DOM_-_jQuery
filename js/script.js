@@ -21,7 +21,7 @@
     function set_stds_el(){
         $("#container").append("<div class='header'></div>");
         $("#container").append("<div class='mane'></div>");
-        $("#container").append("<div class='footer'></div>");
+        $("#container").append("<div class='footer'><ul><li>Home</li><li>About US</li><li>Our meny</li><li>news</li><li>contacts</li></ul></div>"); 
         $(".header").append("<nav>");
         $("nav").append("<ul></ul>");
         $("nav ul").append("<li id='logo'><img src='img/logo.gif' alt='logo' style='width: 300px;'></li>");
@@ -62,13 +62,16 @@
 
     function news_block(title,date,content){
         $(".news").append('<div>');
-        $(".news>div:first").append('<h2>' + title + '<h2>');
-        $(".news>div:first").append('<h5>' + date + '<h5>');
-        $(".news>div:first").append('<p>' + content + '<p>');
+        $(".news>div:last").append('<h2>' + title + '<h2>');
+        $(".news>div:last").append('<h5>' + date + '<h5>');
+        $(".news>div:last").append('<p>' + content + '<p>');
     }
 
      function contacts_page(){
         clear_main();
+        $(".mane").append('<h1>You Can Find Us</h1>')
+        $(".mane").append("<p class='contact'>email: pitca_italy@gmail.com <br>tel: 832-34-74 </p>" ) 
+        $(".mane").append('<div class="map">  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7179.912922105389!2d14.239367503013927!3d40.83276237024815!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xfb51b2f9db835996!2sPiazza+Vittoria!5e0!3m2!1sen!2sru!4v1488303619641" width="100%" height="600" frameborder="0" style="border:0" allowfullscreen></iframe></div>' )
     };
 
 
@@ -81,7 +84,14 @@ $(function(){
     $('nav > ul > li:nth-child(2)').click( function(){about_us_page()});
     $('nav > ul > li:nth-child(3)').click( function(){our_meny_page()});
     $('nav > ul > li:nth-child(4)').click( function(){news_page_page()});
-    $('nav > ul > li:nth-child(5)').click( function(){news_page_page()});
+    $('nav > ul > li:nth-child(5)').click( function(){contacts_page()});
+    
+    $('.footer > ul > li:nth-child(1)').click( function(){index_page()});
+    $('.footer > ul > li:nth-child(2)').click( function(){about_us_page()});
+    $('.footer > ul > li:nth-child(3)').click( function(){our_meny_page()});
+    $('.footer > ul > li:nth-child(4)').click( function(){news_page_page()});
+    $('.footer > ul > li:nth-child(5)').click( function(){contacts_page()});
+
 
 });
 
