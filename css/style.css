@@ -22,6 +22,14 @@ nav ul {
     width: 300px;
     top: 30px; }
 
+nav ul li:not(#logo):hover {
+  background: #ccc;
+  transition: 0s; }
+
+nav ul li:not(#logo) {
+  background: #fff;
+  transition: 1s; }
+
 body {
   margin: 0; }
 
