@@ -19,8 +19,9 @@ nav ul {
   nav ul #logo {
     cursor: pointer;
     margin-right: 100px;
+    margin-top: 40px;
     width: 300px;
-    top: 30px; }
+    }
 
 nav ul li:not(#logo):hover {
   background: #ccc;
